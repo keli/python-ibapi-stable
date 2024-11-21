@@ -1,0 +1,25 @@
+[project]
+name = "python-ibapi-stable"
+version = "10.30.1"
+description = "Python IB API"
+authors = [
+    {name = "IBG LLC", email = "dnastase@interactivebrokers.com"},
+]
+packages = [
+    { include = "ibapi" }
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "IB API Non-Commercial License or the IB API Commercial License"}
+
+[project.urls]
+Homepage = "https://interactivebrokers.github.io/tws-api"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
